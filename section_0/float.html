@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            background-color: aqua;
+            width: 600px;
+            height: 320px;
+        }
+        .son {
+            background-color: aquamarine;
+            margin-top: 20px;
+            margin-left: 150px;
+            width: 300px;
+            height: 100px;
+            border-radius: 20px;
+        }
+        .text {
+            text-align: center;
+        }
+        .guard {
+            background-color: blue;
+            border-radius: 10px;
+            width: 220px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="father" style="margin: auto;margin-top: 15%;">
+        <h2 class="text">这是H2吗这是H2吗这是H2吗</h2>
+        <div class="son">
+            <p class="text" style="line-height: 100px;">我是中间那个二百五</p>
+        </div>
+        <p class="text">上面是圆角框下面也是圆角框</p>
+        <div class="guard" style="float: left;">
+            <p class="text" style="line-height: 50px;">我是左青龙</p>
+        </div>
+        <div style="width: 160px;height: 80px;float: left;">
+            <p class="text">其实我才是二百五</p>
+        </div>
+        <div class="guard" style="float: right;">
+            <p class="text" style="line-height: 50px;">我是右白虎</p>
+        </div>
+    </div>
+</body>
+</html>

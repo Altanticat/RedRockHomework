@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: white;
+            font-size: 21px;
+            font-weight: 600;
+            text-align: center;
+        }
+        hr{
+            color: white;
+            border-style: solid;
+            border-width: 1.5px;
+            border-radius: 1.5px;
+            width: 240px;
+        }
+        .crad {
+            width: 300px;
+            height: 400px;
+            background-color: #FFBB98;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #FBE0C3;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 13%;
+            box-shadow: 10px 10px 10px rgba(64, 64, 64, 0.8);
+        }
+        .cycle {
+            width: 100px;
+            height: 100px;
+            background-image: url(image/head.jpg);
+            background-size: 100%   ;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #FBE0C3;
+            border-radius: 100px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        .vivo50 {
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            margin-top: 32px;
+            background-image: url(image/QRcode.png);
+            background-size: 100%;
+            position: relative;
+        }
+        .crad:hover {
+            transform: translateY(-20px);
+            transition-duration: 0.2s;
+        }
+        .vivo50:hover {
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="crad">
+        <div class="cycle"></div>
+        <div style="width: auto;height: 81px;">
+            <p>Altanticat</p>
+            <p>The God of 摸鱼</p>
+        </div>
+        <hr>
+        <div class="vivo50"></div>
+    </div>
+</body>
+
+</html>
